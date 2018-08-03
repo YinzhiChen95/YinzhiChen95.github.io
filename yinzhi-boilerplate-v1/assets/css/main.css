@@ -1,0 +1,18 @@
+body {
+	font-family: arial;
+}
+
+.intro {
+	border:1px solid #000;
+	padding:20px;
+	margin:20px;
+	background-color: lightgray;
+}
+
+a {
+	color:yellow;
+}
+
+h1 {
+	font-size: 28px;
+}
