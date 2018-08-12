@@ -3,11 +3,10 @@ body {
 }
 
 
-h1 {position: fixed;
+h1{position: fixed;
 	padding-left: 350px;
 	font-style: oblique;
 	font-size: 100px;
-	
 	padding-top: 80px;}
 
 h2{ 
