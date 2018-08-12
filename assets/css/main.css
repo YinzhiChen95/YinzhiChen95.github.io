@@ -1,41 +1,33 @@
 body {
 	
-	background:radial-gradient(circle,pink,peachpuff);
-	font-family: futura;
-
-}
-
-.intro {
-	position:fixed;
-	padding-top: 150px;
-	padding-left: 700px;
-	font-size: 50px;
-	color:white;
 	
+	font-family: Din;
+
 }
 
-.intro2{
-	position:fixed;
-	padding-top: 200px;
-	padding-left: 700px;
-	font-size: 30px;
-	color:white;}
 
-.email{
-	padding-top: 230px;
-	padding-left: 700px;
-	font-size: 15px;
-	color:white;}
+.name {
+	padding-top:80px;
+	padding-left: 20px;
+    font-size:70px;
+	line-height: 1.5;
 
-
-.img{
-	padding-top: 300px;
-	padding-left: 100px;
 }
 
-.gif{
-	padding-top: : 220px;
-	padding-left: 600px;
 
+.link{
+	
+	padding-top:80px;
+	padding-left: 20px;
+    font-size:70px;
+	line-height: 1.5;
+
+}
+
+.email{padding-top:80px;
+	padding-left: 20px;
+    font-size:70px;
+	line-height: 1.5;
+	
 }
 
