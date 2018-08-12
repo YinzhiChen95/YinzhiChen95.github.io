@@ -1,26 +1,82 @@
 body {
-	font-family: arial;
+	font-family: din;
 }
 
-.intro {
-	border:1px solid #000;
-	padding:20px;
-	margin:20px;
-	background-color: lightgray;
+
+h1 {position: fixed;
+	padding-left: 350px;
+	font-style: oblique;
+	font-size: 100px;
+	
+	padding-top: 80px;}
+
+h2{ 
+	padding-top:350px;
+	font-size: 50px;
+	padding-left: 20px;
 }
 
-a {
-	color:yellow;
-}
+h3{font-size: 30px;
+padding-left: 20px;}
 
-h1 {
-	font-size: 28px;
-}
+.author{
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 300px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+    border: 3px solid black;
+    font-size: 25px;
+    padding-left: 20px;}
 
-.q {
+
+  .img1{float:right;}
+
+  .intro{
+  	font-weight: bold;
+  	font-size: 30px;
+  	padding-left: 300px;
+  	padding-right: 200px;
+
+  }
+
+
+.q {font-size: 17px;
+	font-style:oblique;
+	color:black;
+	width:45%;
+	float:left;
+	line-height: 1.1;
+	margin-left:40px;
+	margin-right:20px;
+	padding-right:20px;
 	font-weight: bold;
 }
 
-.a {
+.a{font-size: 17px;
+   width:45%;
+   float:right;
+   margin-left:20px;
+   padding-left:20px;
+   }
 
+
+.img3{
+	position: relative;
+	float: right;
+	top:50px;
 }
+
+.img4{position: relative;
+	top:50px;
+	float: right;
+}
+
+h4{border:3px,yellow;
+	margin-left: 500px;
+	font-size: 40px
+    
+}
+
+
+
