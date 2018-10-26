@@ -1,0 +1,107 @@
+body{
+	font-family: universe 55 Roman;
+	font-size: 16px;
+	color:#3043F9;
+/*	color:#7B1CF7;*/
+}
+
+
+a {
+	border:1px black;
+	padding:20px;
+	text-decoration: none;
+}
+
+
+
+.content-header{
+    line-height: 110%;
+	letter-spacing: 2px;
+	font-size: 3.5vw;
+}
+
+
+.h-en{
+/*   color:#A6EDB3;*/
+}
+
+.h-ch{
+   font-family: Weibei TC;
+/*   color:#A788ED;*/
+}
+
+
+.intro-en{
+
+	letter-spacing: 0.5px;
+    line-height: 110%;
+	font-size: 2.2vw;
+}
+
+.intro-cn{
+    line-height: 140%;
+	font-size: 2vw;	
+}
+
+.book{
+	margin:100px;
+	border:solid blue 5px;
+}
+
+.essay-title {
+
+}
+
+
+.essay-body{
+	    line-height: 110%;
+
+ 
+}
+
+
+
+
+/*.ro{
+	 transform: rotate(90deg);
+}*/
+
+.fs-lrg {
+	font-size: 2.5vw;
+}
+
+.fs-med {
+	font-size: 2vw;
+}
+
+.fs-sml {
+	font-size: 16px;
+}
+
+.ft-wei{
+	font-family: Weibei TC;
+}
+
+.ft-uni-bold{
+	font-family: Univers LT Std 65 Bold;
+	font-weight: bold;
+}
+
+.ft-uni-ob{
+	font-family: Univers LT Std 65 Bold Oblique;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+.title{
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+

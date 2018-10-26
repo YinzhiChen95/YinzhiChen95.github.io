@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+  /* add a border with !important to view the boxes */
+  border:px solid red !important;
+}
+
+/* add a height if you want the self-end to be at the bottom*/
+
+/* set all containers to flex with flex wrap*/
+.container {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+
+.content-header{
+  padding-top: 50px;
+  padding-left:100px;
+
+}
+
+
+.content-intro1{
+padding:60px;
+}
+
+.content-gif1{
+padding-top: 350px;
+  padding-right: 50px;
+}
+
+
+.intro{
+  padding-top: 50px;
+  padding-left: 12px;
+  padding-right: 40px;
+}
+
+.bookimage{
+  width: 50%;
+}
+
+.book{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.content-boom{
+  padding-top: 20px;
+width:80%;
+}
+
+.essay{
+
+}
+
+
+
+.essay-body{
+  padding-right: 50px;
+}
+
+.read {
+  padding-left:450px;
+}
+/* set all images  to fill the flex items */
+.item img {
+  width:100%;
+}
+
+/* gutters are set here */
+.content {
+  padding:20px;
+}
+
+
+/* create helper classes, similar to the w-1of3. These can be used to quickly adjust the alignment of the flex items */
+.self-center {
+  align-self:center;
+}
+
+.self-start{
+  align-self:flex-start;
+}
+
+.self-end {
+  align-self:flex-end;
+}
+
+.align-center {
+  align-items:center;
+}
+
+.align-start {
+  align-items:flex-start;
+}
+
+.align-end {
+  align-items:flex-end;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.content-end{
+  justify-content:flex-end;
+}
+
+/* these are helper classes to change the width of the items quickly */
+
+.w-1of1 {flex:0 0 100%;}
+
+.w-1of2 {flex:0 0 50%;}
+
+.w-1of3 {flex:0 0 33.333%;}
+.w-2of3 {flex:0 0 66.666%;}
+
+.w-1of4{flex:0 0 25%;}
+.w-2of4{flex:0 0 50%;}
+.w-3of4{flex:0 0 75%;}
+
+.w-1of5 {flex:0 0 20%;}
+.w-2of5 {flex:0 0 40%;}
+.w-3of5 {flex:0 0 60%;}
+.w-4of5 {flex:0 0 80%;}
+
+.w-1of6 {flex:0 0 16.66666%;}
+
+.w-1of7 {flex:0 0 14.2857%;}
+.w-3of7 {flex:0 0 42.857%;}
+.w-4of7 {flex:0 0 57.142%;}
+
+.w-3of8 {flex:0 0 37.5%;}
+.w-1of8 {flex:0 0 12.5%;}
+
+.w-1of9 {flex:0 0 11.111%;}
+
+.w-1of10 {flex:0 0 10%;}
+
+.w-1of11{flex:0 0 9.0909%;}
+.w-5of11{flex:0 0 45.454%;}
+
+.w-1of12 {flex:0 0 8.3333%;}
+.w-5of12 {flex:0 0 41.666%;}
+.w-7of12 {flex:0 0 58.333%;}
+
+.w-11of20 {flex:0 0 55%;}
+.w-9of20 {flex:0 0 45%;}
