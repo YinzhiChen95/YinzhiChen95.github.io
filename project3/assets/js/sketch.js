@@ -209,30 +209,30 @@ function draw(){
 
 
 
-function Bubble(){
-  // this.x=mouseX;
-  // this.y=mouseY;
-  this.x1=mouseX;
-  this.y1=mouseY;
-  this.x2=mouseX+10;
-  this.y2=mouseY+10;
-  this.cX=1;
-  this.cY=1;
+// function Bubble(){
+//   // this.x=mouseX;
+//   // this.y=mouseY;
+//   this.x1=mouseX;
+//   this.y1=mouseY;
+//   this.x2=mouseX+10;
+//   this.y2=mouseY+10;
+//   this.cX=1;
+//   this.cY=1;
 
-  this.display=function(){
-    line(this.x1,this.y1,this.x2,this.y2);
-  }
+//   this.display=function(){
+//     line(this.x1,this.y1,this.x2,this.y2);
+//   }
 
-   this.move=function(){
-    this.x2=this.x2+this.cX2;
-    this.y2=this.y2+this.cY2;
+//    this.move=function(){
+//     this.x2=this.x2+this.cX2;
+//     this.y2=this.y2+this.cY2;
 
-    if(this.x2<displayWidth/2||this.x2>displayWidth){
-      this.cX*=-1;
-      }
-  if(this.y2<0||this.x2>displayHeight){
-      this.cY*=-1;
-     }
-    }
-  }
+//     if(this.x2<displayWidth/2||this.x2>displayWidth){
+//       this.cX*=-1;
+//       }
+//   if(this.y2<0||this.x2>displayHeight){
+//       this.cY*=-1;
+//      }
+//     }
+//   }
 
