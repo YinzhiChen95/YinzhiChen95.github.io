@@ -180,7 +180,7 @@ function updateX(){
   apple.position(input.value(),175);
 }
 function draw(){
-  background(250);
+  background(#8fd6f2);
   rotateY(frameCount * 0.01);
 
   for(var j = 0; j < 5; j++){
