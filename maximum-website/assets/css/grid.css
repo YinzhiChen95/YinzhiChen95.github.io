@@ -25,8 +25,10 @@ padding:60px;
 }
 
 .content-gif1{
-padding-top: 350px;
-  padding-right: 50px;
+/*padding-top: 350px;*/
+  width:60%;
+  padding-left: 100px;
+
 }
 
 
@@ -36,35 +38,42 @@ padding-top: 350px;
   padding-right: 40px;
 }
 
-.bookimage{
-  width: 50%;
-}
 
 .book{
-  padding-top: 70px;
-  padding-bottom: 70px;
+  margin-top: 40px;
+  margin-left: 210px;
+  margin-right: 150px;
 }
 
-.content-boom{
-  padding-top: 20px;
-width:80%;
+/*give padding to bookimage both top and bottom*/
+.bookimage{
+padding:50px;
+}
+
+.img-top{
+  padding:50px;
 }
 
 .essay{
-
+  padding-top: 400px;
 }
 
-
-
 .essay-body{
-  padding-right: 50px;
+  padding-top: 10px;
+  padding-right: 40px;
 }
 
 .read {
-  padding-left:450px;
+  padding-top: 0px;
+  padding-bottom: 70px;
+
 }
 /* set all images  to fill the flex items */
 .item img {
+  width:100%;
+}
+
+.item video{
   width:100%;
 }
 
@@ -143,8 +152,10 @@ width:80%;
 .w-3of7 {flex:0 0 42.857%;}
 .w-4of7 {flex:0 0 57.142%;}
 
-.w-3of8 {flex:0 0 37.5%;}
 .w-1of8 {flex:0 0 12.5%;}
+.w-3of8 {flex:0 0 37.5%;}
+.w-5of8 {flex:0 0 62.5%;}
+
 
 .w-1of9 {flex:0 0 11.111%;}
 

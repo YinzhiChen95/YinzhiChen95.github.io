@@ -1,0 +1,125 @@
+body {
+	font-family: universe;
+	font-weight: bold;
+	font-size:2.4vw;
+}
+
+a {
+	color:#14cc9d;
+	text-decoration: none;
+}
+
+/*a:hover {
+	text-decoration: underline;
+}*/
+
+/*pad style*/
+.pad {
+	padding: 30px;
+}
+
+.header {
+    display: block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+	z-index: 3;
+}
+
+
+.navigation {
+	width:40%;
+	display: block;
+	float: left;
+	text-align: right;
+	vertical-align: top;
+}
+
+.information, .contact {
+	margin-top: 60px;
+	width: 50%;
+	float: left;
+	font-size: 24px;
+}
+
+
+.arrow-left {
+	color:#a312b2;
+	position: fixed;
+	top:50%;
+	left:15px;
+	z-index: 2;
+}
+
+.arrow-right {
+	color:#a312b2;
+	position: fixed;
+	top:50%;
+	right:20px;
+	z-index: 9;
+}
+
+
+.lightbox {
+  width: 100vw;
+  height: 100vh;
+}
+.lightbox .lb-images {
+  max-width: 100%;
+  max-height: 100%;
+}
+.lightbox .lb-images .lb-slides {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+.lightbox .lb-images .lb-slides .img-fill {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  padding: 20px;
+  position: relative;
+}
+.lightbox .lb-images .lb-slides .img-fill img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+ box-shadow: 0px 0px 30px #000;
+}
+.lightbox .lb-images .lb-slides .img-fill img:focus {
+  outline: 0;
+}
+
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+/* Styles */
+
+body {
+	font-size: 24px;
+}
+
+.name, .navigation {
+	width:100%;
+	text-align: left;
+}
+
+.lightbox .lb-images .lb-slides .img-fill {
+	padding: 10px;
+}
+
+.arrow-right, .arrow-left {
+	display: none !important;
+}
+
+.information, .contact {
+	margin-top: 200px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+}
