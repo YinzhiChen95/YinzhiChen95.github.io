@@ -12,6 +12,10 @@
   flex-wrap:wrap;
 }
 
+.space{
+  margin-top: 15vw;
+}
+
 
 /* gutters are set here */
 .content {

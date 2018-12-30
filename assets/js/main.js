@@ -1,15 +1,13 @@
 $(document).ready(function(){
 	console.log("ready")
+
+	Marquee3k.init()
 });
 
-//   $( function() {
-//     $( ".layer" ).draggable();
-//   } );
 
-//     $( function() {
-//     $( ".essaylayer" ).draggable();
-//   } );
 
+
+ 
 // window.onload=function(){
 //   $slideshow = $('.lb-slides').slick({
 //     prevArrow: '<div class="arrow-left">Previous</div>',
