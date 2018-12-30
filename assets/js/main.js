@@ -4,7 +4,9 @@ $(document).ready(function(){
 	Marquee3k.init()
 });
 
-
+  $( function() {
+    $( ".layer" ).draggable();
+  } );
 
 
  

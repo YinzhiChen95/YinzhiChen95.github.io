@@ -1,12 +1,14 @@
 * {
 	box-sizing: border-box;
   /* add a border with !important to view the boxes */
-  border:1px solid red !important;
+  border:px solid red !important;
 }
 
 /* add a height if you want the self-end to be at the bottom*/
 
 /* set all containers to flex with flex wrap*/
+
+
 .container {
   display:flex;
   flex-wrap:wrap;
@@ -17,9 +19,15 @@
 }
 
 
+
+
 /* gutters are set here */
 .content {
   padding:20px;
+}
+
+.item img {
+  width:100%;
 }
 
 
