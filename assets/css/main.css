@@ -2,34 +2,33 @@
 
 body {
 	font-family: arial;
+  background-color: #f7f0f2;
 	
 }
 
+
+/*font*/
 .marquee3k {
-/*	font-family: Helvetica;*/
-/*	font-family: myFirstFont;*/
-/* font-family:STSong;*/
- font-size: 2vw;
-/* font-family:STFangsong;*/
-
-
-/* background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
- text-shadow: 1px 1px red;*/
-  
+ font-size: 1.3vw;
+ color:#5ae5a3; 
 }
 
-
+/*position*/
 .marquee3k{
   overflow: hidden;
   position: relative;
-  margin-top: 3vw;
-  margin-left:0vw;
-  width:100vw;
-  background: #CCCCCC;
+  margin-top: 0.8vw; 
+  padding:0vw;  
+  margin-left:24vw;
+  width:70vw;
 }
 
 .marquee3k span {
   padding-left:15px;
+}
+
+.house{
+padding-top: 20px;
 }
 
 .layer{
