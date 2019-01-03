@@ -2,11 +2,22 @@ $(document).ready(function(){
 	console.log("ready")
 
 	Marquee3k.init()
+
+	$('.r-menu').mouseenter(function() {
+    $('.p-menu').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
+
+    // $('.r-menu').mouseleave(function() {
+    // $('.p-menu').removeClass('p-show');});
+
 });
 
   $( function() {
-    $( ".layer" ).draggable();
+    $( ".p-menu" ).draggable();
   } );
+
+
 
 
  
