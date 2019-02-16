@@ -1,0 +1,29 @@
+.pop {
+  width:120px;
+  height:200px;
+  position: fixed;
+  visibility: hidden;
+}
+
+}
+.close{
+  cursor: pointer;
+}
+.p-menu {
+  top:200px;
+  left:130px;
+  font-size: 2vw;
+ /* background-color: yellow;*/
+  position: fixed;
+  cursor: move;
+/*  overflow: scroll;*/
+}
+
+.rollover {
+  font-size: 5vw;
+  padding-left:60px;
+}
+
+.p-show {
+  visibility: visible;
+}
