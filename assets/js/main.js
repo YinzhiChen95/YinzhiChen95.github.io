@@ -8,15 +8,27 @@ $(document).ready(function(){
     $(".pop .close").click(function() {
     $(this).parent().removeClass("p-show");});
 
+    $('.r-space').mouseenter(function() {
+    $('.p-space').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
+
+    $('.r-memo').mouseenter(function() {
+    $('.p-memo').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
+
     // $('.r-menu').mouseleave(function() {
     // $('.p-menu').removeClass('p-show');});
-    $('.r-jing').mouseenter(function() {
-    $('.p-jing').addClass('p-show');
-    });
 
-    $('.r-jing').mouseleave(function() {
-    $('.p-jing').removeClass('p-show');
-     });
+
+    // $('.r-jing').mouseenter(function() {
+    // $('.p-jing').addClass('p-show');
+    // });
+
+    // $('.r-jing').mouseleave(function() {
+    // $('.p-jing').removeClass('p-show');
+    //  });
 
 
 });

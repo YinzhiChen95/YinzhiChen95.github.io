@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
   /* add a border with !important to view the boxes */
-  border:1px solid red !important;
+  border:px solid red !important;
 }
 
 /* add a height if you want the self-end to be at the bottom*/
@@ -12,6 +12,7 @@
 .container {
   display:flex;
   flex-wrap:wrap;
+  margin-top: 2vw;
 }
 
 /* gutters are set here */
@@ -26,26 +27,19 @@
 /*start from here*/
 
 .space{
-
   margin-top:2vw;
 }
 
 .whole{
   margin-top: 3vw;
-
+  margin-left: 2vw;
 }
 
 .simage{
   padding-top: 3vw;
   width:80%;
-  margin-left: 4vw;
-  
+  margin-left: 3vw;
 }
-
-.jing img{
-  width:15%;
-}
-
 
 
 

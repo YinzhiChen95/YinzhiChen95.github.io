@@ -5,36 +5,27 @@
   box-shadow: 5px 8px 15px 5px gray;
   position: absolute;
   visibility: hidden;
-}
-
-.layer1 {
   display:flex;
   flex-wrap:wrap;
 }
 
-.layer1 div{
+.pop:hover {
+  z-index: 200;
+}
+.pop div{
    flex:0 0 100%;
 }
 
-.layer1 img {
+.pop img {
   width: 100%;  
 }
-.p-menu {
-/*  top:100px;
-    left:230px;*/
-  position: fixed;
-/*  cursor: move;*/
-  /*color: #5ae5a3;*/
-  overflow: scroll;
-}
-.p-jing{
+
+.p-space{
 margin-left: 10vw;
-
-
-
 }
 
 .rollover {
+
 /*  font-size: 6vw;*/
 /*  color:#5ae5a3;*/
 }
@@ -42,4 +33,13 @@ margin-left: 10vw;
 .p-show {
 
   visibility: visible;
+}
+
+.p-menu {
+/*  top:100px;
+    left:230px;*/
+  position: fixed;
+/*  cursor: move;*/
+  /*color: #5ae5a3;*/
+  overflow: scroll;
 }

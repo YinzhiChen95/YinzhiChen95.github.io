@@ -27,20 +27,35 @@ body {
 
 .title{
     font-style: italic;
-    font-size:1.2vw;
+    font-size:1.3vw;
 }
 
 .sebody{ 
-    font-size:1vw;
+    font-size:1.1vw;
+}
+
+.rollover {
+  margin-left: 7vw;
+}
+
+.emoji{
+  font-size:1.8vw;
+}
+.know{
+   color:purple;
+   font-size:1.1vw;
+   cursor: pointer;
+
 }
 
 .new1 {
-  width: 60%;
+  margin-left:45%;
+  margin-right:5%;
+  width: 50%;
   border-top: 1px solid red;
-
-
-
-
+}
+.break{
+  text-align: right;
 }
 
 
