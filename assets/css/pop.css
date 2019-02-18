@@ -1,0 +1,22 @@
+.pop2 {
+  width:350px;
+  height:300px;
+  position: fixed;
+  visibility: hidden;
+}
+
+.p-jing {
+  top:100px;
+  left:230px;
+  background-color: blue;
+  overflow: scroll;
+
+}
+
+.rollover2 {
+
+}
+
+.p-show {
+  visibility: visible;
+}

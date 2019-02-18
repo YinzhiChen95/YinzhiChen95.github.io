@@ -1,0 +1,29 @@
+
+
+.panel {
+  height:100vh;
+  width: 50vw;
+  overflow: scroll;
+
+}
+
+.left {
+
+}
+
+.right {
+
+  position:fixed;
+  right:0;
+  top:0;
+}
+
+.text {
+  padding:20px;
+}
+
+.tac {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

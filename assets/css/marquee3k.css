@@ -2,18 +2,22 @@
 .marquee3k {
   font-size: 1.4vw;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
 }
 
 /*position*/
 .marquee3k{
   overflow: hidden;
   position: relative;
-  margin-top: 0.8vw; 
-  padding:0vw;  
-  margin-left:24vw;
-  width:70vw;
+  padding-top: 4.5vw;
+/*  padding:4vw;*/  
+  margin-left:7vw;
+  width:98vw;
+/*  background-color: #f7f0f2;*/
+
 }
 
+/*distance between sentence*/
 .marquee3k span {
   padding-left:15px;
 }

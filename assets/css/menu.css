@@ -1,29 +1,45 @@
+
 .pop {
-  width:120px;
-  height:200px;
-  position: fixed;
+  width:450px;
+  height:600px;
+  box-shadow: 5px 8px 15px 5px gray;
+  position: absolute;
   visibility: hidden;
 }
 
+.layer1 {
+  display:flex;
+  flex-wrap:wrap;
 }
-.close{
-  cursor: pointer;
+
+.layer1 div{
+   flex:0 0 100%;
+}
+
+.layer1 img {
+  width: 100%;  
 }
 .p-menu {
-  top:200px;
-  left:130px;
-  font-size: 2vw;
- /* background-color: yellow;*/
+/*  top:100px;
+    left:230px;*/
   position: fixed;
-  cursor: move;
-/*  overflow: scroll;*/
+/*  cursor: move;*/
+  /*color: #5ae5a3;*/
+  overflow: scroll;
+}
+.p-jing{
+margin-left: 10vw;
+
+
+
 }
 
 .rollover {
-  font-size: 5vw;
-  padding-left:60px;
+/*  font-size: 6vw;*/
+/*  color:#5ae5a3;*/
 }
 
 .p-show {
+
   visibility: visible;
 }

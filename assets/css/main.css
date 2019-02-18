@@ -3,24 +3,44 @@
 body {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   color: #4a4a4a;
-/*  background-color: #f7f0f2;
-  background-color: #f9f8ea;
-  background-color: #eef2eb;*/
+/*  background-color: #f7f0f2;*/
+/*  background-color: #f9f8ea;
+  background-color: #eef2eb;	*/
+  background-color: #f2f2f4；
+}
+/*
+.logo{
+  position: absolute;
+  left:2vw;
 
-	
+}*/
+.close{
+  cursor: pointer;
+  text-align: right;
 }
 
-.num{
-font-weight: bold;
-font-size:3vw;
-}
+/*.content2{
+  font-size: 1.8vw;
+  line-height: 150%;
+}*/
+
 
 .title{
-    font-size:2vw;
+    font-style: italic;
+    font-size:1.2vw;
 }
 
-.sebody{
-    font-size:1.4vw;
+.sebody{ 
+    font-size:1vw;
+}
+
+.new1 {
+  width: 60%;
+  border-top: 1px solid red;
+
+
+
+
 }
 
 

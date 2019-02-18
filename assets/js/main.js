@@ -10,6 +10,14 @@ $(document).ready(function(){
 
     // $('.r-menu').mouseleave(function() {
     // $('.p-menu').removeClass('p-show');});
+    $('.r-jing').mouseenter(function() {
+    $('.p-jing').addClass('p-show');
+    });
+
+    $('.r-jing').mouseleave(function() {
+    $('.p-jing').removeClass('p-show');
+     });
+
 
 });
 

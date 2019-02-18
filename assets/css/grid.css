@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
   /* add a border with !important to view the boxes */
-  border:px solid red !important;
+  border:1px solid red !important;
 }
 
 /* add a height if you want the self-end to be at the bottom*/
@@ -14,13 +14,6 @@
   flex-wrap:wrap;
 }
 
-.space{
-  margin-top: 15vw;
-}
-
-
-
-
 /* gutters are set here */
 .content {
   padding:20px;
@@ -29,6 +22,31 @@
 .item img {
   width:100%;
 }
+
+/*start from here*/
+
+.space{
+
+  margin-top:2vw;
+}
+
+.whole{
+  margin-top: 3vw;
+
+}
+
+.simage{
+  padding-top: 3vw;
+  width:80%;
+  margin-left: 4vw;
+  
+}
+
+.jing img{
+  width:15%;
+}
+
+
 
 
 /* create helper classes, similar to the w-1of3. These can be used to quickly adjust the alignment of the flex items */
