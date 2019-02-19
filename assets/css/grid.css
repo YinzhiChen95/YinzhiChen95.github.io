@@ -41,7 +41,23 @@
   margin-left: 3vw;
 }
 
+.cimage{
+  padding-top: 2.5vw;
+  width: 50%;
+  margin-left: 7vw;
+}
 
+.rimage{
+  margin-left: 4vw;
+  padding-top: 2.5vw;
+  width:75%;
+}
+
+.mimage{
+  padding-top: 1.7vw;
+  width:85%;
+  margin-left: 3vw;
+}
 
 /* create helper classes, similar to the w-1of3. These can be used to quickly adjust the alignment of the flex items */
 .self-center {
