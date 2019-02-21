@@ -59,11 +59,21 @@
   margin-left: 3vw;
 }
 
-.dimage{
+.himage{
+  margin-left: 4vw;
   padding-top: 2.5vw;
-  width: 50%;
-  margin-left: 7vw;
+  width:70%;
 }
+
+.pimage{
+  margin-left: 4vw;
+  padding-top: 2.5vw;
+  width:55%;
+}
+
+
+
+
 
 /* create helper classes, similar to the w-1of3. These can be used to quickly adjust the alignment of the flex items */
 .self-center {
