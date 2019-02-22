@@ -7,6 +7,7 @@
   visibility: hidden;
   display:flex;
   flex-wrap:wrap;
+  background-color: #c0c0c0;
 }
 
 .pop:hover {
@@ -17,15 +18,19 @@
 }
 
 .pop img {
-  width: 100%;  
+  width: 70%;  
 }
 
+
 .p-space{
+
 margin-left: 10vw;
 }
 
 .rollover {
 
+margin-right: 13vw;
+cursor:pointer; 
 /*  font-size: 6vw;*/
 /*  color:#5ae5a3;*/
 }

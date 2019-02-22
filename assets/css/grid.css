@@ -26,6 +26,12 @@
 
 /*start from here*/
 
+.open{
+  position:absolute; 
+  margin-top:15vw;
+  margin-left:35%;
+}
+
 .space{
   margin-top:2vw;
 }

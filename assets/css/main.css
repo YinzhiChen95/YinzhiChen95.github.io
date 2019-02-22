@@ -24,7 +24,19 @@ body {
   line-height: 150%;
 }*/
 
+.open{
+  text-align: center;
+    line-height: 150%;
+    /*font-style: italic;*/
+    font-size: 1.1vw;
+    color:#0cf077;
+}
 
+
+
+.p{
+  color:#f00cb8;
+}
 .title{
     font-style: italic;
     font-size:1.3vw;
@@ -34,18 +46,17 @@ body {
     font-size:1.1vw;
 }
 
-.rollover {
-  margin-left: 7vw;
-}
 
 .emoji{
   font-size:1.8vw;
 }
 .know{
-   color:purple;
+    
    font-size:1.1vw;
-   cursor: pointer;
+}
 
+.x{
+  color:#0cf077;
 }
 
 .new1 {
