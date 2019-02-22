@@ -13,10 +13,21 @@ $(document).ready(function(){
     $(".pop .close").click(function() {
     $(this).parent().removeClass("p-show");});
 
+    $('.r-record').mouseenter(function() {
+    $('.p-record').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
+
     $('.r-memo').mouseenter(function() {
     $('.p-memo').addClass('p-show'); });
     $(".pop .close").click(function() {
     $(this).parent().removeClass("p-show");});
+
+    $('.r-handy').mouseenter(function() {
+    $('.p-handy').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
+
 
     // $('.r-menu').mouseleave(function() {
     // $('.p-menu').removeClass('p-show');});

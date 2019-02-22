@@ -1,14 +1,15 @@
 
 .pop {
-  width:450px;
+  width:400px;
   height:600px;
   box-shadow: 5px 8px 15px 5px gray;
   position: absolute;
   visibility: hidden;
   display:flex;
   flex-wrap:wrap;
-  background-color: #c0c0c0;
+  background-color: #e8e8e8;
 }
+
 
 .pop:hover {
   z-index: 200;
@@ -18,21 +19,47 @@
 }
 
 .pop img {
-  width: 70%;  
+  width: 100%;  
+  padding:1vw;
 }
 
 
-.p-space{
 
-margin-left: 10vw;
+.p-space{
+  width:350px;
+  height:1000px;
+  margin-left:20vw;
+}
+
+.p-record{
+  width:300px;
+  height:1300px;
+  margin-top: 10vw;
+  margin-left:4vw;
+}
+
+.p-memo{
+   width:320px;
+   height: 1320px;
+   margin-top: 3vw;
+   margin-left:14vw;
+}
+
+/*.p-handy div{
+   flex:0 0 50%;
+}*/
+
+.p-handy{
+  width: 370px;
+  margin-top: 7vw;
+  margin-left:10vw;
+
 }
 
 .rollover {
 
 margin-right: 13vw;
 cursor:pointer; 
-/*  font-size: 6vw;*/
-/*  color:#5ae5a3;*/
 }
 
 .p-show {

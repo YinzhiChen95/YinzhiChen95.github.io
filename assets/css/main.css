@@ -8,21 +8,15 @@ body {
   background-color: #eef2eb;	*/
   background-color: #f2f2f4；
 }
-/*
-.logo{
-  position: absolute;
-  left:2vw;
 
-}*/
 .close{
+ 
   cursor: pointer;
+  font-size: 1.5vw;
+  color:#0cf077;
   text-align: right;
 }
 
-/*.content2{
-  font-size: 1.8vw;
-  line-height: 150%;
-}*/
 
 .open{
   text-align: center;
@@ -32,11 +26,10 @@ body {
     color:#0cf077;
 }
 
-
-
 .p{
   color:#f00cb8;
 }
+
 .title{
     font-style: italic;
     font-size:1.3vw;
