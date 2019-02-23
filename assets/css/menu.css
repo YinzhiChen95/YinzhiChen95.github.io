@@ -8,7 +8,8 @@
   visibility: hidden;
   display:flex;
   flex-wrap:wrap;
-    background-color: #ededed;
+  background-color: #E3E4E5;
+/*    background-color: #A3BBD3;*/
 /*  background-color: #e8e8e8;*/
 }
 
@@ -69,11 +70,3 @@ cursor:pointer;
   visibility: visible;
 }
 
-.p-menu {
-/*  top:100px;
-    left:230px;*/
-  position: fixed;
-/*  cursor: move;*/
-  /*color: #5ae5a3;*/
-  overflow: scroll;
-}
