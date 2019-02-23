@@ -14,16 +14,16 @@
   height:100vh;
   width: 43vw;
   overflow: scroll;
-  
+
 /*  background-color: #f7f5da;*/
- /* background-color: #f7f0f2;*/
+/*  background-color: #f7f0f2;*/
 }
 
 .right {
 
- 
+ background-image: url("2.jpg");
   height:100vh;
-  width: 57vw;
+  width: 55vw;
   overflow: scroll;
   position:fixed;
   right:0;

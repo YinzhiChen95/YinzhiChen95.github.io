@@ -5,6 +5,7 @@ body {
   color:#0062D9;
 /*  color: #4a4a4a;*/
 
+
 }
 
 .close{
@@ -22,16 +23,17 @@ body {
     line-height: 150%;
     font-style: italic;
     font-size: 1.2vw;
-
-    color:#0062D9;
+/*    color:white;*/
+    color:#0cf077;
 }
 .open2{
    text-align: left;
     line-height: 150%;
     font-style: normal;
     font-size: 1.1vw;
+/*    color:white;*/
 
-    color:#0062D9;
+    color:#0cf077;
 
 }
 .p{
