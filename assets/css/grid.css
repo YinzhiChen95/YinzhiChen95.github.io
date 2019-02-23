@@ -12,7 +12,7 @@
 .container {
   display:flex;
   flex-wrap:wrap;
-  margin-top: 2vw;
+  margin-top: 1vw;
 }
 
 /* gutters are set here */
@@ -28,51 +28,51 @@
 
 .open{
   position:fixed; 
-  margin-top:15vw;
-  margin-left:15vw;
+  margin-top: 20vw;
+  margin-left:25vw;
 }
 
 
 
 .whole{
   margin-top: 3vw;
-  margin-left: 2vw;
+  margin-left: 0vw;
 }
 
 .simage{
   padding-top: 2.5vw;
-  width:85%;
-  margin-left: 3vw;
+  width:74%;
+  margin-left: 2.5vw;
 }
 
 .cimage{
-  padding-top: 2.5vw;
+  padding-top: 3.5vw;
   width: 50%;
-  margin-left: 7vw;
+  margin-left: 5vw;
 }
 
 .rimage{
-  margin-left: 4vw;
-  padding-top: 2.5vw;
-  width:75%;
+  margin-left: 3vw;
+  padding-top: 3.5vw;
+  width:70%;
 }
 
 .mimage{
-  padding-top: 1.7vw;
-  width:85%;
+  padding-top: 2.2vw;
+  width:80%;
   margin-left: 3vw;
 }
 
 .himage{
-  margin-left: 4vw;
-  padding-top: 2.5vw;
+  margin-left: 3vw;
+  padding-top: 3.5vw;
   width:70%;
 }
 
 .pimage{
-  margin-left: 5.5vw;
-  padding-top: 2.5vw;
-  width:53%;
+  margin-left: 5vw;
+  padding-top: 3.5vw;
+  width:50%;
 }
 
 

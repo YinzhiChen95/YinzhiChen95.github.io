@@ -2,11 +2,13 @@
 
 body {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  color: #4a4a4a;
-/*  background-color: #f7f0f2;*/
-/*  background-color: #f9f8ea;
-  background-color: #eef2eb;	*/
-  background-color: #f2f2f4；
+
+
+  /*color: #5A71E2;*/
+  color:#0062D9;
+/*  color: #4a4a4a;*/
+
+/*  background-color: #f2f2f4；*/
 }
 
 .close{
@@ -15,27 +17,33 @@ body {
   font-size: 1.5vw;
   color:#0cf077;
   text-align: right;
+
 }
 
 
 .open{
-  text-align: center;
+  text-align: left;
     line-height: 150%;
     /*font-style: italic;*/
     font-size: 1.1vw;
-    color:#0cf077;
+
+  color:#0062D9;
+ /*   color:#0cf077;*/
 }
 
 .p{
-  color:#f00cb8;
+/*   color:#5A71E2;*/
+    color:#0cf077;
+/*  color:#0062D9;*/
 }
 
 .title{
     font-style: italic;
-    font-size:1.3vw;
+    font-size:1.2vw;
 }
 
 .sebody{ 
+
     font-size:1.1vw;
 }
 
@@ -49,14 +57,16 @@ body {
 }
 
 .x{
+  /*color:#5A71E2;*/
   color:#0cf077;
 }
 
 .new1 {
-  margin-left:45%;
-  margin-right:5%;
-  width: 50%;
-  border-top: 1px solid red;
+  margin-top: 2vw;
+  margin-left:0%;
+  margin-right:0%;
+  width: 100%;
+  border-top: 1px solid #0cf077;
 }
 .break{
   text-align: right;

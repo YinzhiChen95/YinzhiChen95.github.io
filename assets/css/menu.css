@@ -2,12 +2,14 @@
 .pop {
   width:400px;
   height:600px;
+  border:2px #0062D9 !important;
   box-shadow: 5px 8px 15px 5px gray;
   position: absolute;
   visibility: hidden;
   display:flex;
   flex-wrap:wrap;
-  background-color: #e8e8e8;
+    background-color: #ededed;
+/*  background-color: #e8e8e8;*/
 }
 
 
@@ -26,15 +28,15 @@
 
 
 .p-space{
-  width:350px;
+  width:400px;
   height:1000px;
-  margin-left:20vw;
+  margin-left:24vw;
 }
 
 .p-record{
   width:300px;
   height:1300px;
-  margin-top: 10vw;
+  margin-top: vw;
   margin-left:4vw;
 }
 
@@ -58,7 +60,7 @@
 
 .rollover {
 
-margin-right: 13vw;
+margin-right: 12vw;
 cursor:pointer; 
 }
 

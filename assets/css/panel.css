@@ -2,18 +2,29 @@
 
 .panel {
   height:100vh;
-  width: 50vw;
+  width: 43vw;
   overflow: scroll;
 
 }
 
-.left {
 
-  background-color: #f7f0f2;
+
+
+.left {
+  height:100vh;
+  width: 43vw;
+  overflow: scroll;
+  
+/*  background-color: #f7f5da;*/
+ /* background-color: #f7f0f2;*/
 }
 
 .right {
 
+ 
+  height:100vh;
+  width: 57vw;
+  overflow: scroll;
   position:fixed;
   right:0;
   top:0;
