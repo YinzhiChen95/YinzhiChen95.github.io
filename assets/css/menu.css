@@ -29,35 +29,73 @@
 
 
 .p-space{
-  width:400px;
-  height:1000px;
+  width:28vw;
+  height:75vw;
   margin-left:24vw;
 }
 
 .p-record{
-  width:300px;
-  height:1300px;
+  width:28vw;
+  height:102vw;
   margin-top: vw;
-  margin-left:4vw;
+  margin-left:2vw;
 }
 
 .p-memo{
-   width:320px;
-   height: 1320px;
-   margin-top: 3vw;
+   width:28vw;
+   height: 110vw;
+   margin-top: vw;
    margin-left:14vw;
 }
 
-/*.p-handy div{
-   flex:0 0 50%;
-}*/
 
 .p-handy{
-  width: 370px;
-  margin-top: 7vw;
+  width: 25vw;
+  height: 125vw;
+  margin-top: 5vw;
   margin-left:10vw;
 
 }
+
+.divi div{
+   flex:0 0 50%;
+}
+
+.p-pet{
+  width: 25vw;
+  height: 165vw;
+  margin-top: 2vw;
+  margin-left:22vw;
+}
+
+.p-spine{
+  width: 25vw;
+  height: 100vw;
+  margin-top: 0vw;
+  margin-left:22vw;
+}
+
+.p-co{
+  width: 20vw;
+  height: 100vw;
+  margin-top: 0vw;
+  margin-left:22vw;
+}
+
+.p-two{
+  width: 30vw;
+  height: 100vw;
+  margin-top: 0vw;
+  margin-left:4vw;
+}
+
+.p-dis{
+  width: 30vw;
+  height: 100vw;
+  margin-top: 0vw;
+  margin-left:4vw;
+}
+
 
 .rollover {
 

@@ -28,7 +28,30 @@ $(document).ready(function(){
     $(".pop .close").click(function() {
     $(this).parent().removeClass("p-show");});
 
+    $('.r-pet').mouseenter(function() {
+    $('.p-pet').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
 
+    $('.r-spine').mouseenter(function() {
+    $('.p-spine').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
+
+    $('.r-co').mouseenter(function() {
+    $('.p-co').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
+
+    $('.r-two').mouseenter(function() {
+    $('.p-two').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
+
+    $('.r-dis').mouseenter(function() {
+    $('.p-dis').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
     // $('.r-menu').mouseleave(function() {
     // $('.p-menu').removeClass('p-show');});
 
