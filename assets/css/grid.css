@@ -19,7 +19,9 @@
 .content {
   padding:20px;
 }
-
+.item video{
+  width: 100%;
+}
 .item img {
   width:100%;
 }
@@ -28,49 +30,56 @@
 
 .open{
   position:fixed; 
-  margin-top:3vw;
-  margin-left:29vw;
+  margin-left: 1vw;
+  margin-top:34vh;
+/*  margin-left:29vw;*/
+}
+
+.open2{
+
+ margin-left: 4vw;
+ margin-right: 4vw;
 }
 
 
 .whole{
-  margin-top: 2vw;
+  margin-top: 3vw;
   margin-left: 0vw;
 
 }
 
 .simage{
-  padding-top: 2vw;
+  padding-top: 3vw;
   width:74%;
   margin-left: 2.5vw;
 }
 
 .cimage{
-  padding-top: 2vw;
+  padding-top: 3vw;
   width: 50%;
   margin-left: 5vw;
 }
 
 .rimage{
-  padding-top: 2vw;
+  padding-top: 3vw;
   margin-left: 3vw;
   width:70%;
 }
 
 .mimage{
-  padding-top: 2vw;
+  padding-top: 1vw;
   width:80%;
   margin-left: 3vw;
 }
 
 .himage{
-  padding-top: 2vw;
+  padding-top: 3vw;
   margin-left: 3vw;
   width:70%;
 }
 
 .pimage{
-  padding-top: 2vw;
+  padding-top: 3vw;
   margin-left: 5vw;
   width:50%;
 }

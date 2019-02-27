@@ -52,6 +52,11 @@ $(document).ready(function(){
     $('.p-dis').addClass('p-show'); });
     $(".pop .close").click(function() {
     $(this).parent().removeClass("p-show");});
+
+    $('.r-pro').mouseenter(function() {
+    $('.p-pro').addClass('p-show'); });
+    $(".pop .close").click(function() {
+    $(this).parent().removeClass("p-show");});
     // $('.r-menu').mouseleave(function() {
     // $('.p-menu').removeClass('p-show');});
 

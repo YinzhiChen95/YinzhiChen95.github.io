@@ -29,31 +29,31 @@
 
 
 .p-space{
-  width:28vw;
-  height:75vw;
-  margin-left:24vw;
+  width:32vw;
+  height:85vw;
+  margin-left:21.5vw;
 }
 
 .p-record{
   width:28vw;
   height:102vw;
   margin-top: vw;
-  margin-left:2vw;
+  margin-left:1vw;
 }
 
 .p-memo{
    width:28vw;
    height: 110vw;
    margin-top: vw;
-   margin-left:14vw;
+   margin-left:8vw;
 }
 
 
 .p-handy{
   width: 25vw;
   height: 125vw;
-  margin-top: 5vw;
-  margin-left:10vw;
+  margin-top: 0vw;
+  margin-left:15vw;
 
 }
 
@@ -63,39 +63,45 @@
 
 .p-pet{
   width: 25vw;
-  height: 165vw;
-  margin-top: 2vw;
+  height: 135vw;
+  margin-top: 0vw;
   margin-left:22vw;
 }
 
 .p-spine{
-  width: 25vw;
-  height: 100vw;
-  margin-top: 0vw;
-  margin-left:22vw;
+  width: 26vw;
+  height: 130vw;
+  margin-top: 5vw;
+  margin-left:5vw;
 }
 
 .p-co{
   width: 20vw;
-  height: 100vw;
-  margin-top: 0vw;
-  margin-left:22vw;
+  height: 117vw;
+  margin-top: 5vw;
+  margin-left:32vw;
 }
 
 .p-two{
-  width: 30vw;
-  height: 100vw;
-  margin-top: 0vw;
-  margin-left:4vw;
+  width: 28vw;
+  height: 92vw;
+  margin-top: 10vw;
+  margin-left:14vw;
 }
 
 .p-dis{
-  width: 30vw;
+  width: 25vw;
   height: 100vw;
-  margin-top: 0vw;
+  margin-top: 15vw;
   margin-left:4vw;
 }
 
+.p-pro{
+  width: 25vw;
+  height: 100vw;
+  margin-top: 15vw;
+  margin-left:4vw;
+}
 
 .rollover {
 
