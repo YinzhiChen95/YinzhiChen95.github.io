@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	console.log("ready")
 
-	Marquee3k.init()
+	
 
 	$('.r-menu').mouseenter(function() {
     $('.p-menu').addClass('p-show'); });
